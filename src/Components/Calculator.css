@@ -1,0 +1,50 @@
+.calculator {
+    width: auto;
+    margin: auto;
+    border: 3px solid darkcyan;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+  
+  input {
+    width: auto;
+    text-align: right;
+    font-size: xx-large;
+    border-radius: 50px;
+    border: 2px solid darkcyan;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Trebuchet MS';
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid darkcyan;
+    color: aliceblue;
+    width: auto;
+    padding: 15px;
+  }
+  
+  button {
+    height: 40px;
+    font-size: x-large;
+    background-color: darkcyan;
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    cursor: pointer;
+  }
+
+  .footer{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    text-align: center;
+    color: darkcyan;
+    background-color: aliceblue;
+    height: 10%;
+  }
+  
