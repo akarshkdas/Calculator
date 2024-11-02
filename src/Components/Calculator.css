@@ -1,14 +1,20 @@
 .calculator {
-    width: auto;
-    margin: auto;
+    width:280px;
     border: 3px solid darkcyan;
     padding: 20px;
+    padding-top: 10px;
     border-radius: 10px;
     background-color: aliceblue;
   }
+
+  h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
   
   input {
-    width: auto;
+    width: 90%;
     text-align: right;
     font-size: xx-large;
     border-radius: 50px;
